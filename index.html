@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .form-control-feedback{
+            padding: 10px;
+            border-radius: 10px 0px 0px 10px;
+        }
+        .form-control{
+            width: 300px;
+            border-radius: 0px;
+            border: none;
+        }
+        .btn{
+            
+            border-radius: 0px 10px 10px 0px;
+        }
+        img{
+            width: 100%;
+            height: 30px;
+        }
+        .card{
+            box-sizing: border-box;
+            border-radius: 0px 0px 10px 10px;
+            box-shadow: 0px 5px 5px 0px ;
+            height: 300px;
+        }
+        .card img{
+            width: 100%;
+            height: 200px;
+            position: center;
+            size: cover;
+        }
+        #information{
+            padding: 0;
+        }
+        #information img{
+           
+          width: 40%;
+          height:40%;
+          object-fit: cover;
+            
+    
+        }
+        #information ul {
+          list-style-type: square;
+          
+          }
+          #information ul li{
+          }
+
+    </style>
+</head>
+<body class="bg-light" id="body_class">
+
+    
+    <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+              <img src="logo.png" alt="">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            
+            
+            <form class="d-flex ms-auto">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Recipies</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#" >Blog</a>
+                    </li>
+                  </ul>
+
+
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="d-flex justify-content-center align-items-center p-5 container search_form mt-3 bg-light">
+
+        <span class="fa fa-search form-control-feedback " style="background-color: white;"></span>
+        
+        <input type="text" class="form-control" placeholder="Search" id="search_bar">
+
+        <button type="button" class="btn btn-warning" id="search_button">Search</button>
+      </div>
+
+      <div class="cards container d-flex justify-content-between">
+
+
+        <div class="container" >
+            <div class="row" id="full_row">
+                
+            </div>
+      </div>
+
+
+    
+    
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  
+
+    
+    
+</body>
+</html>
